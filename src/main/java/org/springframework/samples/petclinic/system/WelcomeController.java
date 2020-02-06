@@ -9,6 +9,6 @@ class WelcomeController {
 
     @GetMapping("/")
     public String welcome() {
-        return "Hello from Saurav!";
+        return "Welcome to Petclinic App made by Saurav";
     }
 }
